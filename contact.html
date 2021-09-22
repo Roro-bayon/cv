@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+
+  <h1>My Contact details</h1>
+  <p>Email: email@gmail.com</p>
+  <p>Contact Number: 619-999-9999</p>
+  <p>P.O Box: 1234 Homestreet, CA 91910</p>
+  <hr>
+
+  <h2>Leave Your Details Here:</h2>
+
+  <!---adding the method and enctype attribute to form enables the next action
+    done after the user clicks submit! and adding the action attribute that
+    contains the site owner's email address enables the email to open up
+    having a target action for the form--->
+  <form class="" action="mailto:info@gmail.com" method="post" enctype="text/plain">
+    <label for="your-name">Your Name:</label>
+    <input type="text" name="your-name" value="">
+    <br>
+
+    <label for="your-email">Your Email:</label>
+    <input type="email" name="your-email" value="">
+    <br>
+
+    <label for="text-box">Your Message:</label><br>
+    <textarea name="name" rows="8" cols="30"></textarea><br>
+    <input type="submit" name="your-message">
+  </form>
+
+</body>
+
+</html>
